@@ -6,13 +6,13 @@
 1. Create and activate a virtual environment:
    ```bash
    python -m venv venv
-   .\venv\Scripts\activate  # Windows
+   .\venv\Scripts\activate  
    ```
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Copy `.env.example` to `.env` and set up your database config. (Uses SQLite by default).
+3. Copy `.env.example` to `.env` and set up database config. (Uses SQLite by default).
 4. Run migrations:
    ```bash
    python manage.py makemigrations
