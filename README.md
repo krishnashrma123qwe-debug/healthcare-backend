@@ -1,26 +1,24 @@
 # Healthcare Backend
 
-A simple Django backend for managing patients, doctors, and their assignments.
+
 
 ## Setup
-
-1. Clone this repository
-2. Create and activate a virtual environment:
+1. Create and activate a virtual environment:
    ```bash
    python -m venv venv
    .\venv\Scripts\activate  # Windows
    ```
-3. Install dependencies:
+2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-4. Copy `.env.example` to `.env` and set up your database config. (Uses SQLite by default).
-5. Run migrations:
+3. Copy `.env.example` to `.env` and set up your database config. (Uses SQLite by default).
+4. Run migrations:
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
-6. Start the server:
+5. Start the server:
    ```bash
    python manage.py runserver
    ```
